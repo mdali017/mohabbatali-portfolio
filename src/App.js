@@ -9,6 +9,7 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ProjectView from './components/ProjectView';
 
 // import components
 
@@ -21,6 +22,7 @@ const App = () => {
     <Skills></Skills>
     <Portfolio></Portfolio>
     <Services></Services>
+    <ProjectView></ProjectView>
     <Testimonials></Testimonials>
     <Contact></Contact>
     <Footer></Footer>
