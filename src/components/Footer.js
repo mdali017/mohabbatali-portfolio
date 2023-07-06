@@ -21,9 +21,9 @@ const Footer = () => {
                     }
                 </div>
                 <div>
-                    <img src={logo} alt="" />
+                    <h1 className='italic text-2xl'>Mohabbat Ali</h1>
                 </div>
-                <p>&copy: 2023 Cristian Mihai. All rights reserved</p>
+                <p>&copy: 2023 Mohabbat Ali. All rights reserved</p>
             </div>
         </div>
       

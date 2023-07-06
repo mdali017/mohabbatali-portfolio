@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Nav from './Nav';
 import Socials from './Socials';
 import NavMobail from './NavMobail';
+import { Link } from 'react-scroll';
 
 function Header() {
     const [bg, setBg] = useState(false);
@@ -19,9 +20,9 @@ function Header() {
       <div className='container mx-auto h-full flex items-center justify-between '>
 
        
-        <a href="#">
-          <img src={logo} alt="" />
-        </a>
+        <Link className='text-2xl italic' to=''>
+          Mohabbat Ali
+        </Link>
         <div className='hidden lg:block'>
           <Nav></Nav>
         </div>

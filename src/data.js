@@ -74,19 +74,19 @@ export const navigation = [
 export const social = [
   {
     icon: <FiYoutube />,
-    href: '',
+    href: 'https://www.linkedin.com/in/md-mohabbat-ali-052b31237/',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.linkedin.com/in/md-mohabbat-ali-052b31237/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/mdali017',
   },
   {
     icon: <FiDribbble />,
-    href: '',
+    href: 'https://github.com/mdali017',
   },
 ];
 
@@ -257,12 +257,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at mohabbatalit8@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Dhaka, Bangladesh',
     description: 'Serving clients worldwide',
   },
 ];
