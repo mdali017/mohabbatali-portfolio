@@ -1,0 +1,11 @@
+/* Overflow Related*/
+
+
+.project-section-style{
+    border: 3px solid rgb(121, 25, 231);
+    height: 300px;
+    overflow-y: scroll;
+}
+.img-scroller{
+    width: 100%;
+}
