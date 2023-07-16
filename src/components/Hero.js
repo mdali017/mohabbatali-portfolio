@@ -1,21 +1,10 @@
-import React, { createElement } from 'react'
-import mohabbatImg from '../assets/img/mohabbat-img.png'
-import CV from '../assets/img/MohabbatCV.pdf'
-import { Link } from 'react-scroll'
+import React from 'react'
+import heroImg from '../assets/img/Portfolio-hero-Section.png'
 const PDF_FILE_URL = 'https://drive.google.com/file/d/1yFXMDKmImDa2rvZeqRFO4DQ_OYEWxW0M/view?usp=sharing'
 
 function Hero() {
+
   const handleDownloadCV = (url) =>{
-
-    // const fileName =  "Mohabbat's Resume"
-    // const aTag = document.createElement('a')
-    // aTag.href = url;
-    // aTag.setAttribute('download', fileName)
-    // document.body.appendChild(aTag);
-    // aTag.click();
-    // aTag.remove();
-    // -----------------------
-
     fetch('Resume (1).pdf')
     .then(res =>res.blob())
     .then(blob =>{
@@ -42,8 +31,8 @@ function Hero() {
        </div>
 
        {/* right */}
-       <div className='hidden lg:flex flex-1 justify-center items-end h-full'>
-        <img src={mohabbatImg} alt="" />
+       <div className='hidden lg:flex flex-1 justify-center items-end ]'>
+        <img src={heroImg}   alt="" />
        </div>
       </div>
     </section>
