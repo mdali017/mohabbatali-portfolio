@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../assets/img/Portfolio-hero-Section.png'
+import heroImg from '../assets/img/Portfolio-hero-Section2.png'
 const PDF_FILE_URL = 'https://drive.google.com/file/d/1yFXMDKmImDa2rvZeqRFO4DQ_OYEWxW0M/view?usp=sharing'
 
 function Hero() {
