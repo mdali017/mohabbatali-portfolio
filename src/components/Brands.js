@@ -9,7 +9,9 @@ function Brands() {
          {
             brands.map( (brand, index) => {
                 return (
-                    <div key={index}>
+                    <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" key={index}>
                         <img src={brand.img} alt="" />
                     </div>
                 )

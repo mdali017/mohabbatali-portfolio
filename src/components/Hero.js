@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import heroImg from '../assets/img/Portfolio-hero-Section2.png'
+import 'aos/dist/aos.css'; 
+import AOS from 'aos';
 const PDF_FILE_URL = 'https://drive.google.com/file/d/1yFXMDKmImDa2rvZeqRFO4DQ_OYEWxW0M/view?usp=sharing'
 
 function Hero() {
+
+  useEffect( () => {
+    AOS.init({duration: 1000});
+  } , [])
 
   const handleDownloadCV = (url) =>{
     fetch('Resume (1).pdf')
@@ -23,7 +29,7 @@ function Hero() {
       <div className='container flex mx-auto h-full '>
 
         {/* left */}
-       <div className="flex flex-1 flex-col lg:mt-40 items-center lg:items-start">
+       <div data-aos="fade-up" className="flex flex-1 flex-col lg:mt-40 items-center lg:items-start">
          <p className='text-lg text-accent mb-[22px]'>Hey, I'm Mohabbat Ali 🙂</p>
           <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>I Build & Design <br /> Web Interface</h1>
           <p className='pt-4 pb-8  md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:left'>Adipisicing elit. At nesciunt quod minima voluptate. Explicabo similique culpa quia libero totam officia?</p>
@@ -31,8 +37,8 @@ function Hero() {
        </div>
 
        {/* right */}
-       <div className='hidden lg:flex flex-1 justify-center items-end ]'>
-        <img src={heroImg}   alt="" />
+       <div data-aos="fade-down" className='hidden lg:flex flex-1 justify-center items-center ]'>
+        <img src={heroImg} style={{width: '500px', border: "6px solid"}}  alt="" />
        </div>
       </div>
     </section>

@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ProjectView from './components/ProjectView';
 
+
 // import components
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
     <Testimonials></Testimonials>
     <Contact></Contact>
     <Footer></Footer>
+    
     <div style={{height: '1000px'}}>
 
     </div>
