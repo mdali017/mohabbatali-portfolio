@@ -22,8 +22,9 @@ function Projects() {
               Restro Queen is an innovative MERN-based project designed to
               revolutionize the restaurant industry's digital landscape.
               Utilizing the power of MongoDB, Express.js, React, and Node.js,
-              this platform ensures seamless performance and scalability.
             </p>
+            <p>User: info@gmail.com and Password: 123456</p>
+            <p>Admin: info10@gmail.com and Password: 123456</p>
 
             <div className="mt-5 ">
               <a
