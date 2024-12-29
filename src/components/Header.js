@@ -20,7 +20,7 @@ function Header() {
       <div className='container mx-auto h-full flex items-center justify-between '>
 
        
-        <Link className='text-2xl italic' to=''>
+        <Link style={{fontFamily: "mohabbatFont"}} className='text-4xl italic text-white ' to=''>
           Mohabbat Ali
         </Link>
         <div className='hidden lg:block'>

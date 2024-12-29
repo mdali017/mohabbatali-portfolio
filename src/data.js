@@ -11,6 +11,7 @@ import {
   FiMail,
   FiMapPin,
 } from "react-icons/fi";
+import { FaFacebookF, FaFacebookSquare, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 // companies icons
 import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
@@ -18,6 +19,7 @@ import UpworkBrandIcon from "./assets/img/brands/upwork.png";
 import FiverBrandIcon from "./assets/img/brands/fiverr.png";
 import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
+import IcicleBrandIcon from "./assets/img/brands/icicle.png"
 
 // projects images
 import Project1 from "./assets/img/projects/p1.webp";
@@ -73,11 +75,7 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: "https://www.linkedin.com/in/md-mohabbat-ali-052b31237/",
-  },
-  {
-    icon: <FiInstagram />,
+    icon: <FaLinkedinIn />,
     href: "https://www.linkedin.com/in/md-mohabbat-ali-052b31237/",
   },
   {
@@ -85,13 +83,22 @@ export const social = [
     href: "https://github.com/mdali017",
   },
   {
-    icon: <FiDribbble />,
-    href: "https://github.com/mdali017",
+    icon: <FaFacebookF />,
+    href: "https://www.facebook.com/md.mohabbat.ali.169/",
+  },
+
+  {
+    icon: <FaTelegramPlane />,
+    href: "https://www.facebook.com/md.mohabbat.ali.169/",
   },
 ];
 
 // companies
 export const brands = [
+  {
+    img: IcicleBrandIcon,
+    href: "",
+  },
   {
     img: FreelancerBrandIcon,
     href: "",
